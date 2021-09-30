@@ -1,4 +1,16 @@
-# Zbin-Wabot
+# H-BOTz
+
+<h1 align="center">السلام عليكم <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="40px" alt=""><br></h1>
+<p align="center">
+  <img src="https://i.pinimg.com/736x/86/21/83/8621831aa9308b4d0001c9ab42c185e1.jpg" />
+</p>
+
+<p align="center">
+
+- 👼 My name is Temotoki
+- 🗣️ I am 16 years old 
+- 🔭 I am not programmer
+- 😘 I am anime lovers
 
 Bot Biasa Dengan Base Mhankbarbar Dan Saya Modif Agar Sesuai Selera Saya Pribadi
 
@@ -24,8 +36,8 @@ Fixed Yt search
 ```cmd
 $ pkg update && pkg upgrade
 $ pkg i git
-$ git clone https://github.com/Zobin33/Zbin-Wabot
-$ cd Zbin-Wabot
+$ git clone https://github.com/febzofc/bot-wa
+$ cd zyrobotv1
 $ bash install.sh
 
 Scan QR
@@ -35,8 +47,8 @@ Scan QR
 ```cmd
 $ pkg update && pkg upgrade
 $ pkg i git nodejs libwebp ffmpeg wget tesseract toilet
-$ git clone https://github.com/Zobin33/Zbin-Wabot
-$ cd Zbin-Wabot
+$ git clone https://github.com/febz/bot-wa
+$ cd zyrobotv1
 $ wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
 $ npm i -g
 ```
@@ -47,29 +59,24 @@ $ npm i -g
 * [`Download Node JS`](https://nodejs.org/en/download/)
 * [`Download Git`](https://git-scm.com/downloads)
 ```cmd
-> git clone https://github.com/Zobin33/Zbin-Wabot
-> cd Zbin-Wabot
+> git clone https://github.com/febzofc/bot-wa
+> cd zyrobotv1
 > wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
 > npm i -g
 ```
 
 # Run Bot
 ```cmd
-$ cd Zbin-Wabot
-$ bash run.sh
+$ cd zyrobotv1
+$ npm start
 ```
 
 # Yang Perlu Di Edit
  
-Owner Number Di [`Main.js`](https://github.com/Zobin33/Anu-Wabot/blob/main/main.js) Line 191
-
-Prefix Di [`Main.js`](https://github.com/Zobin33/Anu-Wabot/blob/main/main.js) Line|Baris 97 Support Emot Dan Kata Kata
-
-mess [`Di Main.js`](https://github.com/Zobin33/Anu-Wabot/blob/main/main.js) Line|Baris 210
-
-Help Di [`Help.js`](https://github.com/Zobin33/Anu-Wabot/blob/main/src/help.js)
-
-botname Di [`Main.js`](https://github.com/Zobin33/Anu-Wabot/blob/main/main.js) Line|Baris 98
+Owner
+Prefix 
+Help 
+botname 
 
 ## Thanks To
 

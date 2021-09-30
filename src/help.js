@@ -3,10 +3,10 @@ const help = (prefix, copid, tanggal, jams, botname) => {
 
 ┌━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
 │ *⦿ Bot Prefix :* [all prefix]
-│ *⦿ Owner :* FebzGanz
+│ *⦿ Owner :* Temotoki Boy
 │ *⦿ Today :* ${tanggal}
 │ *⦿ Jam :* ${jams}
-│ *⦿ Ig:* https://bit.ly/3hqqQzZ
+│ *⦿ Ig:* https://instagram.com/7deax.ly_
 └┬────────────┈ ⳹
 ┌┤ 「  *Kasus Covid-19 Indonesia*  」
 ││➥ *Terinfeksi :* ${copid[0].kasus}
@@ -81,7 +81,7 @@ const help = (prefix, copid, tanggal, jams, botname) => {
 ││
 ││「 *Info / Command* 」
 ││Menu Bug? Next SC w baikin
-││Cek Yt FEBZABOTZ For Update SC
+││
 ││
 ││Tanda Kurung [ ] Hiraukan Contoh :
 ││ *${prefix}play fly away*
@@ -90,7 +90,7 @@ const help = (prefix, copid, tanggal, jams, botname) => {
 ││Request? : *${prefix}request*
 ││owner? : *${prefix}owner*
 │└────────────┈ ⳹
-│ *©FebzGanz*
+│ *©Temotoki Boyz*
 └━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙`}
 
 exports.help = help

@@ -1,9 +1,20 @@
 //|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━|
-//| Creator : Fadhil Graphy (penata ulang)
-//| Developer : FebzGanz
+//| Creator : Temotoki Boyz (penata ulang)
+//| Developer : Temotoki Boy
 //| Recode? Silahkan Tapi Jangan Di Apus  Creator
 //| Sama Devoloper Nya (jangan numpang nama)
 //|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━|
+
+
+
+//OY PANTEK JAN NYOLONG CONST YAK!! HARAMM BROOO
+//HARAMMMMM
+//Follow Ig Gw 7deax.ly_
+//JANGAN DI ILANGIN AUTHOR SMA DEVOLOPER NYA
+//REUPLOAD? BOLEH ASALL TAG AE!!
+
+
+
 const {
     WAConnection,
     MessageType,
@@ -72,23 +83,23 @@ const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
 const chatban = JSON.parse(fs.readFileSync('./src/banchat.json'))
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:FebzGanz\n' //jangan digantu nanti error nanges
-            + 'ORG: Creator FebZabotz;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6285849261085:+62 858-4926-1085\n'  //kalo eror jan nanges
+            + 'FN:Temotoki Boyz\n' //jangan digantu nanti error nanges
+            + 'ORG: Creator Temotoki Boy;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6282118325154:+62 821-1832-5154\n'  //kalo eror jan nanges
             + 'END:VCARD'
 
 const vcard1 = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
             + 'FN:Creator Bot\n' //Jangan diganti nanti eror nanges
-            + 'ORG: Creator AmatsukazeBot;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6283102650464:+62 831-0265-0464\n'  //kalo eror jan nanges
+            + 'ORG: Creator Temotoki Boyz;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6282118325154:+62 821-1832-5154\n'  //kalo eror jan nanges
             + 'END:VCARD'
 
-/*prefix = `#`*/
-botname = 'FEBZABOTZ' //Name Bot Lu:v
+/*prefix = `!`*/
+botname = 'Hayasaka' //ganti jdu name bot Lu:v
 blocked = []
-fakereply = '© Created By FebzGanz' //jan di ganti lah, hormati yang buat!!
-fake = 'FEBZABOTZ' //ganti serah lu
+fakereply = '© Created By Temotoki Boy' //jan di ganti lah, hormati yang buat!!
+fake = 'H-BOTz' //ganti serah lu
 
 function kyun(seconds){
   function pad(s){
@@ -109,15 +120,15 @@ async function starts() {
 	const client = new WAConnection()
 	client.version = [2, 2119, 6]
 	client.logger.level = 'warn'
-	console.log('>', '[',color('YT DEVELOPER','yellow'),']','FEBZABOTZ')
-    console.log('>', '[',color('IG DEVOLOPER','red'),']','FEBZABOTZ')
-    console.log('>', '[',color('INFO UPDATE','blue'),']','YT FEBZABOTZ')
-    /*lolcatjs.fromString('[DEV] FEBZGANZ')
+	console.log('>', '[',color('DISCORD DEVELOPER','purple'),']','depdep#9294')
+    console.log('>', '[',color('IG DEVOLOPER','red'),']','7deax.ly_')
+    console.log('>', '[',color('ONLY 4U','blue'),']','OhMyTemotoki')
+    /*lolcatjs.fromString('[DEV] Temotoki Boy')
 	lolcatjs.fromString('[~>>] BOT Started!')
 	lolcatjs.fromString('[HALLO] Semangat Ya Sayang Buat Botnya💙')
     console.log(banner.string)*/
 	client.on('qr', () => {
-	console.log(color('[','white'), color('!','red'), color(']','white'), color(' SUB YT FEBZABOTZ'))
+	console.log(color('[','white'), color('!','red'), color(']','white'), color('Yaudah Tunggu Aja Syg:)'))
 	})
 
 	fs.existsSync('./session.json') && client.loadAuthInfo('./session.json')
@@ -125,7 +136,7 @@ async function starts() {
 	start('2', 'Connecting...')
 	})
 	client.on('open', () => {
-	success('2', 'SUB YT FEBZABOTZ')
+	success('2', 'Makasih Ya Udh Nunggu:)')
 	}) 
 	await client.connect({timeoutMs: 30*1000})
   fs.writeFileSync('./session.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
@@ -195,7 +206,7 @@ client.on('group-participants-update', async (anu) => {
 				break;
 				case 'remove':
 					num = _client.participants[0];
-					const teks_goodbye = (__welcome_teks[_client.jid]==undefined&&__welcome_teks[_client.jid].goodbye==undefined) ? __welcome_teks[_client.jid].goodbye :  `*𝚂𝚎𝚕𝚊𝚖𝚊𝚝 𝚝𝚒𝚗𝚐𝚐𝚊𝚕 𝚋𝚎𝚋𝚊𝚗 @${num.split("@")[0]} 𝚔𝚊𝚖𝚒 𝚍𝚊𝚛𝚒 𝚐𝚛𝚘𝚞𝚙 ${mdata.subject}} 𝚜𝚊𝚗𝚐𝚊𝚗 𝚜𝚎𝚗𝚊𝚗𝚐 𝚊𝚗𝚍𝚊 𝚙𝚎𝚛𝚐𝚒*` ;
+					const teks_goodbye = (__welcome_teks[_client.jid]==undefined&&__welcome_teks[_client.jid].goodbye==undefined) ? __welcome_teks[_client.jid].goodbye :  `*𝚂𝚎𝚕??𝚖𝚊?? 𝚝𝚒𝚗𝚐𝚐𝚊𝚕 𝚋𝚎𝚋𝚊?? @${num.split("@")[0]} 𝚔𝚊𝚖𝚒 𝚍𝚊𝚛𝚒 𝚐𝚛𝚘𝚞𝚙 ${mdata.subject}} 𝚜𝚊𝚗𝚐𝚊𝚗 𝚜𝚎𝚗𝚊𝚗𝚐 𝚊𝚗𝚍𝚊 𝚙𝚎𝚛𝚐𝚒*` ;
 					try {
 						ppimg = await client.getProfilePicture(`${_client.participants[0].split('@')[0]}@c.us`);
 					} catch(e) {
@@ -261,7 +272,7 @@ client.on('group-participants-update', async (anu) => {
    const args = body.trim().split(/ +/).slice(1)
    const isCmd = body.startsWith(prefix)
    const botNumber = client.user.jid
-   const ownerNumber = ["6285849261085@s.whatsapp.net","6283102650464@s.whatsapp.net"]
+   const ownerNumber = ["6282118325154@s.whatsapp.net","6282118325154@s.whatsapp.net"]
    const bant = ["0@s.whatsapp.net"]
    const isGroup = from.endsWith('@g.us')
       number = msg.participant ? msg.participant : client.user.jid
@@ -411,7 +422,7 @@ client.sendMessage(from, teks, text, {quoted: {key: {fromMe: false, participant:
 						          "jpegThumbnail": fs.readFileSync(`./blank.png`)
 					            },
 					          "title": fake,
-					          "description": "Bot FebZabotz",
+					          "description": "H-BOTz",
 					          "currencyCode": "IDR",
 					          "priceAmount1000": "50000000",
 					          "retailerId": "Self Bot",
@@ -507,13 +518,13 @@ case 'bugreport':
 if (args.length < 1) return reply(`Ketik ${prefix}bugreport [fiturnya] [Error Nya Gimana]`) 
 teks = args.join(' ')
 reply('Terima Kasih Telah Melaporkan Bug Pada Owner, Jika Itu Sekedar Iseng Maka Akan Di Ban Oleh Bot!')
-client.sendMessage('6285849261085@s.whatsapp.net',`*INFO DARI PENGGUNA*\n*Bug Report:* ${teks}`, text)
+client.sendMessage('6282118325154@s.whatsapp.net',`*INFO DARI PENGGUNA*\n*Bug Report:* ${teks}`, text)
 break
 case 'request':
 if (args.length < 1) return reply(`Ketik ${prefix}request [fiturnya] [Error Nya Gimana]`) 
 teks = args.join(' ')
 reply('Terima Kasih Telah Request Fitur Baru Pada Owner, Jika Itu Sekedar Iseng Maka Akan Di Ban Oleh Bot!')
-client.sendMessage('6285849261085@s.whatsapp.net',`*INFO DARI PENGGUNA*\n*Request Fitur:* ${teks}`, text)
+client.sendMessage('6282118325154@s.whatsapp.net',`*INFO DARI PENGGUNA*\n*Request Fitur:* ${teks}`, text)
 break
 case 'brainly':
 brainly(args.join(" ")).then(res => {
